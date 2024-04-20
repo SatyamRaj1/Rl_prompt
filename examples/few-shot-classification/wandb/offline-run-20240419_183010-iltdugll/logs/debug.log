@@ -1,0 +1,28 @@
+2024-04-19 18:30:10,093 INFO    MainThread:8982 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-04-19 18:30:10,094 INFO    MainThread:8982 [wandb_setup.py:_flush():76] Configure stats pid to 8982
+2024-04-19 18:30:10,095 INFO    MainThread:8982 [wandb_setup.py:_flush():76] Loading settings from /root/.config/wandb/settings
+2024-04-19 18:30:10,096 INFO    MainThread:8982 [wandb_setup.py:_flush():76] Loading settings from /content/drive/MyDrive/RL Prompt/examples/few-shot-classification/wandb/settings
+2024-04-19 18:30:10,097 INFO    MainThread:8982 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-04-19 18:30:10,097 INFO    MainThread:8982 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-04-19 18:30:10,097 INFO    MainThread:8982 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'run_fsc.py', 'program_abspath': '/content/drive/MyDrive/RL Prompt/examples/few-shot-classification/run_fsc.py', 'program': '/content/drive/MyDrive/RL Prompt/examples/few-shot-classification/run_fsc.py'}
+2024-04-19 18:30:10,098 INFO    MainThread:8982 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-19 18:30:10,098 INFO    MainThread:8982 [wandb_setup.py:_flush():76] Applying login settings: {'mode': 'offline'}
+2024-04-19 18:30:10,098 INFO    MainThread:8982 [wandb_init.py:_log_setup():521] Logging user logs to /content/drive/My Drive/RL Prompt/examples/few-shot-classification/wandb/offline-run-20240419_183010-iltdugll/logs/debug.log
+2024-04-19 18:30:10,099 INFO    MainThread:8982 [wandb_init.py:_log_setup():522] Logging internal logs to /content/drive/My Drive/RL Prompt/examples/few-shot-classification/wandb/offline-run-20240419_183010-iltdugll/logs/debug-internal.log
+2024-04-19 18:30:10,099 INFO    MainThread:8982 [wandb_init.py:init():561] calling init triggers
+2024-04-19 18:30:10,099 INFO    MainThread:8982 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {'task_lm': 'distilgpt2', 'is_mask_lm': None, 'compute_zscore': True, 'incorrect_coeff': 180.0, 'correct_coeff': 200.0, 'dataset': 'sst-2', 'dataset_seed': 0, 'base_path': './data', 'num_shots': 16, 'policy_lm': 'distilgpt2', 'hidden_size': 2048, 'logit_bias': 0.0, 'fluent': False, 'fluent_top_k': 20, 'max_decoding_length': 5, 'eos_token_id': None, 'prompt_length': 5, 'prompt_train_batch_size': 16, 'prompt_infer_batch_size': 1, 'source_str': '<|endoftext|>', 'sql_loss_impl': 'v2_v2r_v3_v3r', 'training_mode': 'sql-onpolicy', 'mix_strategy': None, 'target_update_method': 'polyak', 'target_update_steps': None, 'target_learning_rate': 0.001, 'reward_shaping': True, 'reward_shaping_old_min': 0.0, 'reward_shaping_old_max': 1.0, 'reward_shaping_new_min': 0.0, 'reward_shaping_new_max': 5.0, 'top_k': 256, 'top_p': 1.0, 'num_beams': 1, 'train_batch_size': 200, 'train_shuffle': False, 'train_drop_last': True, 'num_train_epochs': 1, 'max_train_steps': 12000, 'do_eval': True, 'eval_batch_size': 50, 'eval_steps': 10, 'do_save': True, 'save_dir': 'outputs/2024-04-19/18-29-58/./outputs', 'save_steps': 100, 'learning_rate': 5e-05, 'gradient_clip': True, 'gradient_clip_norm': 5.0, 'checkpoint_path': None, 'random_seed': 83, 'report_to_wandb': True, 'project_name': 'rl-prompt', 'run_name': None}
+2024-04-19 18:30:10,099 INFO    MainThread:8982 [wandb_init.py:init():611] starting backend
+2024-04-19 18:30:10,099 INFO    MainThread:8982 [wandb_init.py:init():615] setting up manager
+2024-04-19 18:30:10,105 INFO    MainThread:8982 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-04-19 18:30:10,114 INFO    MainThread:8982 [wandb_init.py:init():623] backend started and connected
+2024-04-19 18:30:10,151 INFO    MainThread:8982 [wandb_init.py:init():715] updated telemetry
+2024-04-19 18:30:10,165 INFO    MainThread:8982 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2024-04-19 18:30:10,175 INFO    MainThread:8982 [wandb_init.py:init():799] starting run threads in backend
+2024-04-19 18:30:10,957 INFO    MainThread:8982 [wandb_run.py:_console_start():2335] atexit reg
+2024-04-19 18:30:10,957 INFO    MainThread:8982 [wandb_run.py:_redirect():2190] redirect: wrap_raw
+2024-04-19 18:30:10,958 INFO    MainThread:8982 [wandb_run.py:_redirect():2255] Wrapping output streams.
+2024-04-19 18:30:10,958 INFO    MainThread:8982 [wandb_run.py:_redirect():2280] Redirects installed.
+2024-04-19 18:30:10,961 INFO    MainThread:8982 [wandb_init.py:init():842] run started, returning control to user process
+2024-04-19 18:30:10,962 INFO    MainThread:8982 [wandb_watch.py:watch():51] Watching
+2024-04-19 18:30:45,605 WARNING MsgRouterThr:8982 [router.py:message_loop():77] message_loop has been closed
