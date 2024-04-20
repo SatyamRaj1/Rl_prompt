@@ -1,3 +1,19 @@
+Metadata-Version: 2.1
+Name: rl-prompt
+Version: 0.1.0
+Summary: RLPrompt: Optimizing Discrete Text Prompts With Reinforcement Learning
+Home-page: https://github.com/mingkaid/rl-prompt
+Author: Mingkai Deng*, Jianyu Wang*, Cheng-Ping Hsieh*, Yihan Wang, Han Guo, Tianmin Shu, Meng Song, Eric P. Xing, Zhiting Hu
+License: MIT
+Keywords: RL Prompt
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # RL Prompt
 
 This repo contains the code of the discrete prompt optimization framework described in the paper \
